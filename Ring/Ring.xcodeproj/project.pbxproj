@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A57C2EBF20505C2D00D86472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C2EBE20505C2D00D86472 /* AppDelegate.swift */; };
-		A57C2EC120505C2D00D86472 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A57C2EC020505C2D00D86472 /* art.scnassets */; };
+		A57C2EC120505C2D00D86472 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A57C2EC020505C2D00D86472 /* Models.scnassets */; };
 		A57C2EC320505C2D00D86472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C2EC220505C2D00D86472 /* ViewController.swift */; };
 		A57C2EC620505C2D00D86472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57C2EC420505C2D00D86472 /* Main.storyboard */; };
 		A57C2EC820505C2D00D86472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57C2EC720505C2D00D86472 /* Assets.xcassets */; };
@@ -16,6 +16,11 @@
 		A57C2ED620505C2D00D86472 /* RingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C2ED520505C2D00D86472 /* RingTests.swift */; };
 		A57C2EE120505C2D00D86472 /* RingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C2EE020505C2D00D86472 /* RingUITests.swift */; };
 		A5D2549220585719001DE9C3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2549120585719001DE9C3 /* Utilities.swift */; };
+		A5D25494205857A9001DE9C3 /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D25493205857A9001DE9C3 /* Gesture.swift */; };
+		A5D25496205857F8001DE9C3 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D25495205857F8001DE9C3 /* VirtualObject.swift */; };
+		A5D2549820585806001DE9C3 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2549720585806001DE9C3 /* Ring.swift */; };
+		A5D2549A20585C59001DE9C3 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2549920585C59001DE9C3 /* Plane.swift */; };
+		A5D2549C20585CD1001DE9C3 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2549B20585CD1001DE9C3 /* FocusSquare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,7 @@
 /* Begin PBXFileReference section */
 		A57C2EBB20505C2D00D86472 /* Ring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57C2EBE20505C2D00D86472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A57C2EC020505C2D00D86472 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		A57C2EC020505C2D00D86472 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		A57C2EC220505C2D00D86472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A57C2EC520505C2D00D86472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A57C2EC720505C2D00D86472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,11 @@
 		A57C2EE020505C2D00D86472 /* RingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingUITests.swift; sourceTree = "<group>"; };
 		A57C2EE220505C2D00D86472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5D2549120585719001DE9C3 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A5D25493205857A9001DE9C3 /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
+		A5D25495205857F8001DE9C3 /* VirtualObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
+		A5D2549720585806001DE9C3 /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		A5D2549920585C59001DE9C3 /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		A5D2549B20585CD1001DE9C3 /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +112,15 @@
 			isa = PBXGroup;
 			children = (
 				A57C2EBE20505C2D00D86472 /* AppDelegate.swift */,
-				A57C2EC020505C2D00D86472 /* art.scnassets */,
 				A57C2EC220505C2D00D86472 /* ViewController.swift */,
+				A5D25493205857A9001DE9C3 /* Gesture.swift */,
+				A5D25495205857F8001DE9C3 /* VirtualObject.swift */,
+				A5D2549720585806001DE9C3 /* Ring.swift */,
+				A5D2549920585C59001DE9C3 /* Plane.swift */,
+				A5D2549B20585CD1001DE9C3 /* FocusSquare.swift */,
 				A5D2549120585719001DE9C3 /* Utilities.swift */,
 				A57C2EC420505C2D00D86472 /* Main.storyboard */,
+				A57C2EC020505C2D00D86472 /* Models.scnassets */,
 				A57C2EC720505C2D00D86472 /* Assets.xcassets */,
 				A57C2EC920505C2D00D86472 /* LaunchScreen.storyboard */,
 				A57C2ECC20505C2D00D86472 /* Info.plist */,
@@ -238,7 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A57C2EC120505C2D00D86472 /* art.scnassets in Resources */,
+				A57C2EC120505C2D00D86472 /* Models.scnassets in Resources */,
 				A57C2ECB20505C2D00D86472 /* LaunchScreen.storyboard in Resources */,
 				A57C2EC820505C2D00D86472 /* Assets.xcassets in Resources */,
 				A57C2EC620505C2D00D86472 /* Main.storyboard in Resources */,
@@ -266,9 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D25496205857F8001DE9C3 /* VirtualObject.swift in Sources */,
 				A5D2549220585719001DE9C3 /* Utilities.swift in Sources */,
 				A57C2EC320505C2D00D86472 /* ViewController.swift in Sources */,
+				A5D2549820585806001DE9C3 /* Ring.swift in Sources */,
 				A57C2EBF20505C2D00D86472 /* AppDelegate.swift in Sources */,
+				A5D2549C20585CD1001DE9C3 /* FocusSquare.swift in Sources */,
+				A5D25494205857A9001DE9C3 /* Gesture.swift in Sources */,
+				A5D2549A20585C59001DE9C3 /* Plane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

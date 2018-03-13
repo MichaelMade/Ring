@@ -1,9 +1,10 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Utility functions and type extensions used throughout the projects.
-*/
+//
+//  ViewController.swift
+//  Ring
+//
+//  Created by Michael Moore on 2/20/18.
+//  Copyright © 2018 Michael Moore. All rights reserved.
+//
 
 import Foundation
 import ARKit
