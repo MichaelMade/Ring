@@ -15,9 +15,7 @@
 		A57C2ECB20505C2D00D86472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57C2EC920505C2D00D86472 /* LaunchScreen.storyboard */; };
 		A57C2ED620505C2D00D86472 /* RingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C2ED520505C2D00D86472 /* RingTests.swift */; };
 		A57C2EE120505C2D00D86472 /* RingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C2EE020505C2D00D86472 /* RingUITests.swift */; };
-		A57C2EF120505C6100D86472 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C2EEE20505C6000D86472 /* VirtualObject.swift */; };
-		A57C2EF220505C6100D86472 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C2EEF20505C6000D86472 /* Ring.swift */; };
-		A57C2EF320505C6100D86472 /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C2EF020505C6000D86472 /* Gesture.swift */; };
+		A5D2549220585719001DE9C3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2549120585719001DE9C3 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +50,7 @@
 		A57C2EDC20505C2D00D86472 /* RingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57C2EE020505C2D00D86472 /* RingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingUITests.swift; sourceTree = "<group>"; };
 		A57C2EE220505C2D00D86472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A57C2EEE20505C6000D86472 /* VirtualObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
-		A57C2EEF20505C6000D86472 /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
-		A57C2EF020505C6000D86472 /* Gesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
+		A5D2549120585719001DE9C3 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +104,7 @@
 				A57C2EBE20505C2D00D86472 /* AppDelegate.swift */,
 				A57C2EC020505C2D00D86472 /* art.scnassets */,
 				A57C2EC220505C2D00D86472 /* ViewController.swift */,
-				A57C2EF020505C6000D86472 /* Gesture.swift */,
-				A57C2EEF20505C6000D86472 /* Ring.swift */,
-				A57C2EEE20505C6000D86472 /* VirtualObject.swift */,
+				A5D2549120585719001DE9C3 /* Utilities.swift */,
 				A57C2EC420505C2D00D86472 /* Main.storyboard */,
 				A57C2EC720505C2D00D86472 /* Assets.xcassets */,
 				A57C2EC920505C2D00D86472 /* LaunchScreen.storyboard */,
@@ -272,11 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D2549220585719001DE9C3 /* Utilities.swift in Sources */,
 				A57C2EC320505C2D00D86472 /* ViewController.swift in Sources */,
-				A57C2EF220505C6100D86472 /* Ring.swift in Sources */,
-				A57C2EF320505C6100D86472 /* Gesture.swift in Sources */,
 				A57C2EBF20505C2D00D86472 /* AppDelegate.swift in Sources */,
-				A57C2EF120505C6100D86472 /* VirtualObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

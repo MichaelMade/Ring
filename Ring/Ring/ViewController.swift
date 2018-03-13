@@ -24,10 +24,28 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/Ring.scn")!
+        let scene = SCNScene(named: "art.scnassets/ring.scn")!
         
         // Set the scene to the view
         sceneView.scene = scene
+        
+        let tapRec = UITapGestureRecognizer(target: self, action: #selector(handleTap(rec:)))
+        
+        //Add recognizer to sceneview
+        sceneView.addGestureRecognizer(tapRec)
+    }
+    
+    //Method called when tap
+    @objc func handleTap(rec: UITapGestureRecognizer){
+        
+        if rec.state == .ended {
+            let location: CGPoint = rec.location(in: sceneView)
+            let hits = self.sceneView.hitTest(location, options: nil)
+            if !hits.isEmpty {
+                let tappedNode = hits.first?.node
+                tappedNode?.scale = SCNVector3Uniform(tappedNode!.scale.x * 1.2)
+            }
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -78,4 +96,3 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
     }
 }
-
