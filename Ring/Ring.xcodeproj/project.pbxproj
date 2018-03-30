@@ -7,20 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A54B8586206E7C3A008CB88C /* Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B8585206E7C3A008CB88C /* Diamond.swift */; };
+		A54B8589206E8095008CB88C /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B8588206E8095008CB88C /* Gesture.swift */; };
+		A54B858B206E80A1008CB88C /* PlaneDebugVisualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B858A206E80A1008CB88C /* PlaneDebugVisualization.swift */; };
+		A54B858D206E816E008CB88C /* HitTestVisualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B858C206E816E008CB88C /* HitTestVisualization.swift */; };
+		A54B858F206E81BD008CB88C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B858E206E81BD008CB88C /* SettingsViewController.swift */; };
+		A54B8591206E81C3008CB88C /* VirtualObjectSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B8590206E81C3008CB88C /* VirtualObjectSelectionViewController.swift */; };
+		A54B8593206E81C8008CB88C /* TextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B8592206E81C8008CB88C /* TextManager.swift */; };
+		A54B8595206E81CD008CB88C /* ARCameraTrackingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B8594206E81CD008CB88C /* ARCameraTrackingState.swift */; };
+		A54B8597206E8290008CB88C /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B8596206E8290008CB88C /* Models.scnassets */; };
 		A57C2EBF20505C2D00D86472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C2EBE20505C2D00D86472 /* AppDelegate.swift */; };
-		A57C2EC120505C2D00D86472 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A57C2EC020505C2D00D86472 /* Models.scnassets */; };
 		A57C2EC320505C2D00D86472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C2EC220505C2D00D86472 /* ViewController.swift */; };
-		A57C2EC620505C2D00D86472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57C2EC420505C2D00D86472 /* Main.storyboard */; };
-		A57C2EC820505C2D00D86472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57C2EC720505C2D00D86472 /* Assets.xcassets */; };
 		A57C2ECB20505C2D00D86472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57C2EC920505C2D00D86472 /* LaunchScreen.storyboard */; };
 		A57C2ED620505C2D00D86472 /* RingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C2ED520505C2D00D86472 /* RingTests.swift */; };
 		A57C2EE120505C2D00D86472 /* RingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C2EE020505C2D00D86472 /* RingUITests.swift */; };
 		A5D2549220585719001DE9C3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2549120585719001DE9C3 /* Utilities.swift */; };
-		A5D25494205857A9001DE9C3 /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D25493205857A9001DE9C3 /* Gesture.swift */; };
 		A5D25496205857F8001DE9C3 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D25495205857F8001DE9C3 /* VirtualObject.swift */; };
 		A5D2549820585806001DE9C3 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2549720585806001DE9C3 /* Ring.swift */; };
 		A5D2549A20585C59001DE9C3 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2549920585C59001DE9C3 /* Plane.swift */; };
 		A5D2549C20585CD1001DE9C3 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2549B20585CD1001DE9C3 /* FocusSquare.swift */; };
+		A5D36449206EA591007ACA90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54B859A206E840A008CB88C /* Main.storyboard */; };
+		A5D3644A206EA621007ACA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B859C206E8437008CB88C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +48,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A54B8585206E7C3A008CB88C /* Diamond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diamond.swift; sourceTree = "<group>"; };
+		A54B8588206E8095008CB88C /* Gesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
+		A54B858A206E80A1008CB88C /* PlaneDebugVisualization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneDebugVisualization.swift; sourceTree = "<group>"; };
+		A54B858C206E816E008CB88C /* HitTestVisualization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HitTestVisualization.swift; sourceTree = "<group>"; };
+		A54B858E206E81BD008CB88C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A54B8590206E81C3008CB88C /* VirtualObjectSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualObjectSelectionViewController.swift; sourceTree = "<group>"; };
+		A54B8592206E81C8008CB88C /* TextManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextManager.swift; sourceTree = "<group>"; };
+		A54B8594206E81CD008CB88C /* ARCameraTrackingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCameraTrackingState.swift; sourceTree = "<group>"; };
+		A54B8596206E8290008CB88C /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+		A54B859A206E840A008CB88C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A54B859C206E8437008CB88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A57C2EBB20505C2D00D86472 /* Ring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57C2EBE20505C2D00D86472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A57C2EC020505C2D00D86472 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		A57C2EC220505C2D00D86472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A57C2EC520505C2D00D86472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A57C2EC720505C2D00D86472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A57C2ECA20505C2D00D86472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A57C2ECC20505C2D00D86472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A57C2ED120505C2D00D86472 /* RingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,7 +71,6 @@
 		A57C2EE020505C2D00D86472 /* RingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingUITests.swift; sourceTree = "<group>"; };
 		A57C2EE220505C2D00D86472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5D2549120585719001DE9C3 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		A5D25493205857A9001DE9C3 /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
 		A5D25495205857F8001DE9C3 /* VirtualObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
 		A5D2549720585806001DE9C3 /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
 		A5D2549920585C59001DE9C3 /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
@@ -88,6 +102,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A54B8584206E7C1B008CB88C /* Virtual Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A5D25495205857F8001DE9C3 /* VirtualObject.swift */,
+				A5D2549720585806001DE9C3 /* Ring.swift */,
+				A54B8585206E7C3A008CB88C /* Diamond.swift */,
+			);
+			path = "Virtual Objects";
+			sourceTree = "<group>";
+		};
+		A54B8587206E7C99008CB88C /* Ui Components */ = {
+			isa = PBXGroup;
+			children = (
+				A5D2549920585C59001DE9C3 /* Plane.swift */,
+				A54B8588206E8095008CB88C /* Gesture.swift */,
+				A5D2549B20585CD1001DE9C3 /* FocusSquare.swift */,
+				A54B858A206E80A1008CB88C /* PlaneDebugVisualization.swift */,
+				A54B858C206E816E008CB88C /* HitTestVisualization.swift */,
+			);
+			path = "Ui Components";
+			sourceTree = "<group>";
+		};
+		A54B859B206E8417008CB88C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A57C2EC920505C2D00D86472 /* LaunchScreen.storyboard */,
+				A54B859C206E8437008CB88C /* Assets.xcassets */,
+				A54B8596206E8290008CB88C /* Models.scnassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A54B859D206E8449008CB88C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A57C2EC220505C2D00D86472 /* ViewController.swift */,
+				A54B8590206E81C3008CB88C /* VirtualObjectSelectionViewController.swift */,
+				A54B858E206E81BD008CB88C /* SettingsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A54B859E206E846E008CB88C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A54B8594206E81CD008CB88C /* ARCameraTrackingState.swift */,
+				A54B8592206E81C8008CB88C /* TextManager.swift */,
+				A5D2549120585719001DE9C3 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		A57C2EB220505C2D00D86472 = {
 			isa = PBXGroup;
 			children = (
@@ -112,17 +178,12 @@
 			isa = PBXGroup;
 			children = (
 				A57C2EBE20505C2D00D86472 /* AppDelegate.swift */,
-				A57C2EC220505C2D00D86472 /* ViewController.swift */,
-				A5D25493205857A9001DE9C3 /* Gesture.swift */,
-				A5D25495205857F8001DE9C3 /* VirtualObject.swift */,
-				A5D2549720585806001DE9C3 /* Ring.swift */,
-				A5D2549920585C59001DE9C3 /* Plane.swift */,
-				A5D2549B20585CD1001DE9C3 /* FocusSquare.swift */,
-				A5D2549120585719001DE9C3 /* Utilities.swift */,
-				A57C2EC420505C2D00D86472 /* Main.storyboard */,
-				A57C2EC020505C2D00D86472 /* Models.scnassets */,
-				A57C2EC720505C2D00D86472 /* Assets.xcassets */,
-				A57C2EC920505C2D00D86472 /* LaunchScreen.storyboard */,
+				A54B859A206E840A008CB88C /* Main.storyboard */,
+				A54B859D206E8449008CB88C /* View Controllers */,
+				A54B8584206E7C1B008CB88C /* Virtual Objects */,
+				A54B8587206E7C99008CB88C /* Ui Components */,
+				A54B859E206E846E008CB88C /* Utilities */,
+				A54B859B206E8417008CB88C /* Resources */,
 				A57C2ECC20505C2D00D86472 /* Info.plist */,
 			);
 			path = Ring;
@@ -209,7 +270,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Michael Moore";
 				TargetAttributes = {
 					A57C2EBA20505C2D00D86472 = {
@@ -253,10 +314,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A57C2EC120505C2D00D86472 /* Models.scnassets in Resources */,
+				A5D36449206EA591007ACA90 /* Main.storyboard in Resources */,
 				A57C2ECB20505C2D00D86472 /* LaunchScreen.storyboard in Resources */,
-				A57C2EC820505C2D00D86472 /* Assets.xcassets in Resources */,
-				A57C2EC620505C2D00D86472 /* Main.storyboard in Resources */,
+				A5D3644A206EA621007ACA90 /* Assets.xcassets in Resources */,
+				A54B8597206E8290008CB88C /* Models.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +342,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54B858B206E80A1008CB88C /* PlaneDebugVisualization.swift in Sources */,
 				A5D25496205857F8001DE9C3 /* VirtualObject.swift in Sources */,
 				A5D2549220585719001DE9C3 /* Utilities.swift in Sources */,
+				A54B8591206E81C3008CB88C /* VirtualObjectSelectionViewController.swift in Sources */,
 				A57C2EC320505C2D00D86472 /* ViewController.swift in Sources */,
+				A54B8595206E81CD008CB88C /* ARCameraTrackingState.swift in Sources */,
 				A5D2549820585806001DE9C3 /* Ring.swift in Sources */,
+				A54B8593206E81C8008CB88C /* TextManager.swift in Sources */,
 				A57C2EBF20505C2D00D86472 /* AppDelegate.swift in Sources */,
 				A5D2549C20585CD1001DE9C3 /* FocusSquare.swift in Sources */,
-				A5D25494205857A9001DE9C3 /* Gesture.swift in Sources */,
+				A54B8586206E7C3A008CB88C /* Diamond.swift in Sources */,
+				A54B858D206E816E008CB88C /* HitTestVisualization.swift in Sources */,
+				A54B8589206E8095008CB88C /* Gesture.swift in Sources */,
 				A5D2549A20585C59001DE9C3 /* Plane.swift in Sources */,
+				A54B858F206E81BD008CB88C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,14 +392,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A57C2EC420505C2D00D86472 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A57C2EC520505C2D00D86472 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A57C2EC920505C2D00D86472 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -357,6 +417,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -364,6 +425,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -414,6 +476,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -421,6 +484,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
